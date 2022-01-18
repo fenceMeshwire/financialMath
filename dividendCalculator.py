@@ -2,7 +2,7 @@
 
 # Python 3.9.5
 
-# dividendCalculatorATT.py
+# dividendCalculator.py
 
 # Dependencies
 import matplotlib.pyplot as plt
