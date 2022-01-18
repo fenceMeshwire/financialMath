@@ -15,7 +15,7 @@ from sklearn.linear_model import LinearRegression
 # Change Working Directory
 def changePath():
     # the path for the input file goes here. Single column of values (s. stockDividend.txt)
-    path = 'C:\\'
+    path = '/home/user/downloads'
     os.chdir(path)
     return Path.cwd()
 
