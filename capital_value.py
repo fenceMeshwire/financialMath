@@ -2,7 +2,7 @@
 
 # Python 3.9.5
 
-# Capital_Value.py
+# capital_Value.py
 
 class CapitalValue():
     def __init__(self, value, interest, years):
