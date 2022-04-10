@@ -54,8 +54,8 @@ for article in articles:
     net_price_drinks, net_price_food, vat_drinks, vat_food = \
     calc_VAT(vat_factor, gross_price)
     # Calculate the cumulative total for the lineup
-    nets_drinks += net_price_drinks; nets_foods += net_price_food
-    vats_drinks += vat_drinks; vats_foods += vat_food
+    nets_drinks += net_price_drinks;    nets_foods += net_price_food
+    vats_drinks += vat_drinks;          vats_foods += vat_food
     grp_drinks = grp_drinks + net_price_drinks + vat_drinks
     grp_food = grp_food + net_price_food + vat_food
 
